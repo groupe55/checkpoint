@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffa477; /* Couleur de fond beige pastel */
+        }
+        .navbar {
+            background-color: #ed7855;
+            overflow: hidden;
+            text-align: center; /* Centrer le texte dans le navbar */
+        }
+        .navbar a {
+            display: inline-block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            margin: 0 auto; /* Centre les liens horizontalement */
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .banner {
+            background-image: url('banner.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        .banner h1 {
+            font-size: 50px;
+        }
+        .banner h3 {
+            font-size: 24px;
+        }
+        .services, .testimonials {
+            padding: 50px 20px;
+            color: #FFBB7D; /* Couleur du texte pour Our Services et What Our Clients Say */
+        }
+        .services h2, .testimonials h2 {
+            text-align: center;
+        }
+        .services .service, .testimonials .testimonial {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .footer {
+            background-color: #ed7855; /* Couleur beige clair pour le footer */
+            color: #333; /* Couleur du texte pour le footer */
+            text-align: center;
+            padding: 5px 0; /* Réduit l'espace intérieur du footer */
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .home-image {
+            display: block;
+            margin: 0 auto; /* Centre l'image horizontalement */
+            width: 100%; /* Remplit toute la largeur du conteneur */
+            max-width: none; /* Aucune limite de largeur maximale */
+            height: auto; /* Ajuste la hauteur de l'image automatiquement */
+            position: fixed; /* Fixe l'image en arrière-plan */
+            top: 0; left: 0; bottom: 0; right: 0; /* Couvre toute la fenêtre */
+            z-index: -1; /* Met l'image en arrière-plan */
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <a href="home.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<div class="banner">
+    <h1>Welcome to Event Management</h1>
+    <h3>We organize the best events for you!</h3>
+</div>
+
+<img src="C:/Users/MSI/Desktop/Formation/home.jpg" alt="home" class="home-image">
+
+<section class="services" id="services">
+    <h2>Our Services</h2>
+    <div class="service">
+        <h3>Corporate Events</h3>
+        <p>We manage and organize corporate events of all sizes.</p>
+    </div>
+    <div class="service">
+        <h3>Weddings</h3>
+        <p>Make your special day unforgettable with our wedding planning services.</p>
+    </div>
+    <div class="service">
+        <h3>Birthday Parties</h3>
+        <p>Celebrate your birthday in style with our party planning services.</p>
+    </div>
+</section>
+
+<section class="testimonials" id="testimonials">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial">
+        <p>"Event Management made our corporate event a huge success! Highly recommended."</p>
+        <p>- Jane Doe</p>
+    </div>
+    <div class="testimonial">
+        <p>"Our wedding was perfect thanks to the amazing planning team. Thank you!"</p>
+        <p>- John and Mary Smith</p>
+    </div>
+</section>
+
+<div class="footer">
+    <p>&copy; 2024 Event Management. All rights reserved.</p>
+</div>
+
+</body>
+</html>
