@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/*******headeer****/
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+
+.logo-docplanner {
+    width: 268px;
+    height: 33px;
+} 
+    body {
+        font-family: Roboto, Arial, sans-serif;
+        color: #747474;
+       
+    }
+
+.main-menu {
+    list-style: none; /*enlever les point*/
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 2em;
+    padding: 1.33em 0;
+    margin:  0;
+} 
+.main-menu li {
+    display: inline-block;
+    margin-right: 10px;
+    
+} 
+.main-menu li:hover{
+   color:aquamarine;
+   cursor: pointer;
+} 
+.lead__logo {
+    display: block;
+    margin: 0 auto;
+} 
+.lead h1 {
+    text-align: center;
+    margin: 1em 0;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    font-size: 2.125rem;
+    color: #00b39b;
+} 
+.div_lead{
+    display: flex;
+    justify-content: center;
+
+} 
+.lead, .Work , .partenariat{
+    max-width: 1015px;
+    margin: 0 auto;
+} 
+
+.lead p{
+    margin: .8em 0;
+    line-height: 1.75;
+    font-weight: 400;
+    width: 50%;
+    padding: 10px;
+} 
+.Work_items
+{
+    margin: 10px;
+    background-color: #00b39b;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
+.Work_items_list
+{
+    display: flex;
+} 
+.Work_items1
+{
+    background: beige;
+}.Work_items2
+{
+    background: bisque;
+}.Work_items3
+{
+    background: blanchedalmond;
+} 
+.Work_items h1 {
+    font-size: 1.625em;
+    font-weight: 400;
+    color: #fff;
+    margin: .3em 0;
+} 
+.Work_items h2 {
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+} 
+.work_select_div
+{
+    margin-bottom: 35px;
+} 
+.work_select_div select{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0 2em 0 0;
+    outline: 0;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer;
+} 
+.partenariat_div h1{
+    float: left;
+    width: 33%;
+    font-size: 1.625em;
+    margin: .25em 0 .3
+} 
+.partenariat_div{
+    display: flex;
+} 
+.partenariat_logos{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0;
+    list-style: none;
+    width: 67%;
+} 
+.partenariat_logos li{
+    font-size: 1rem;
+    display: inline-block;
+    margin-top: 0;
+    padding: 5px 0 5px 5px;
+    width: 24%;
+} 
+.partenariat_logos a svg{
+    height: 20px;
+    width: auto;
+    max-width: 100%;
+} 
+.partenariat_logos  .jameda img{
+    height: 20px;
+}
+.partenariat_logos  .tuotempo img{
+    height: 16px;
+} 
+.partenariat_logos  .clinicloud img,.partenariat_logos  .gipo img,.partenariat_logos  .mydr img{
+    height: 34px;
+} 
